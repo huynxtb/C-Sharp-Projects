@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="basiccsharpModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="lop">
+    <Key>
+      <PropertyRef Name="malop" />
+    </Key>
+    <Property Name="malop" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="tenlop" Type="nvarchar" MaxLength="50" />
+    <Property Name="nam" Type="int" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="mssv" />
+    </Key>
+    <Property Name="mssv" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="hoten" Type="nvarchar" MaxLength="50" />
+    <Property Name="malop" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_SinhVien_lop">
+    <End Role="lop" Type="Self.lop" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lop">
+        <PropertyRef Name="malop" />
+      </Principal>
+      <Dependent Role="SinhVien">
+        <PropertyRef Name="malop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="basiccsharpModelStoreContainer">
+    <EntitySet Name="lop" EntityType="Self.lop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SinhVien" EntityType="Self.SinhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_SinhVien_lop" Association="Self.FK_SinhVien_lop">
+      <End Role="lop" EntitySet="lop" />
+      <End Role="SinhVien" EntitySet="SinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

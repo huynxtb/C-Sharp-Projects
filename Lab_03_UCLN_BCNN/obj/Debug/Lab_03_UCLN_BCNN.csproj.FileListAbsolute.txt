@@ -1,0 +1,10 @@
+D:\C#\Lab_03_UCLN_BCNN\bin\Debug\Lab_03_UCLN_BCNN.exe.config
+D:\C#\Lab_03_UCLN_BCNN\bin\Debug\Lab_03_UCLN_BCNN.exe
+D:\C#\Lab_03_UCLN_BCNN\bin\Debug\Lab_03_UCLN_BCNN.pdb
+D:\C#\Lab_03_UCLN_BCNN\obj\Debug\Lab_03_UCLN_BCNN.csprojAssemblyReference.cache
+D:\C#\Lab_03_UCLN_BCNN\obj\Debug\Lab_03_UCLN_BCNN.Form1.resources
+D:\C#\Lab_03_UCLN_BCNN\obj\Debug\Lab_03_UCLN_BCNN.Properties.Resources.resources
+D:\C#\Lab_03_UCLN_BCNN\obj\Debug\Lab_03_UCLN_BCNN.csproj.GenerateResource.cache
+D:\C#\Lab_03_UCLN_BCNN\obj\Debug\Lab_03_UCLN_BCNN.csproj.CoreCompileInputs.cache
+D:\C#\Lab_03_UCLN_BCNN\obj\Debug\Lab_03_UCLN_BCNN.exe
+D:\C#\Lab_03_UCLN_BCNN\obj\Debug\Lab_03_UCLN_BCNN.pdb

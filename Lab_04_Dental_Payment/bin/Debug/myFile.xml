@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customers>
+  <customer id="C1">
+    <name>Xuan Huy</name>
+    <total>1,460,000</total>
+  </customer>
+  <customer id="C2">
+    <name>Quoc Hung</name>
+    <total>1,480,000</total>
+  </customer>
+  <customer id="C3">
+    <name>HuyenTrang</name>
+    <total>1,280,000</total>
+  </customer>
+</customers>

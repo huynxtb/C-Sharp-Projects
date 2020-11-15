@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "9xpI1JqbbS4OiQ6uwzqy+6QTZIMNiSzCO9bBZ8NMMF2ECpHJSikMXAyqg5OFIR+4DNI62ePYpOITXypz87HzzA==",
+  "success": true,
+  "projectFilePath": "D:\\C#\\SimpleCsharp\\SimpleCsharp\\SimpleCsharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\irisnguyen\\.nuget\\packages\\ikvm\\8.1.5717\\ikvm.8.1.5717.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'IKVM 8.1.5717' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "IKVM",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

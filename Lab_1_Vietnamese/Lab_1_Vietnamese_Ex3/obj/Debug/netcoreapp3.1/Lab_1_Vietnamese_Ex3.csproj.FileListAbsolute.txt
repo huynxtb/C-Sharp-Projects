@@ -1,0 +1,13 @@
+D:\C#\Lab_1_Vietnamese_Ex3\bin\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.exe
+D:\C#\Lab_1_Vietnamese_Ex3\bin\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.deps.json
+D:\C#\Lab_1_Vietnamese_Ex3\bin\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.runtimeconfig.json
+D:\C#\Lab_1_Vietnamese_Ex3\bin\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.runtimeconfig.dev.json
+D:\C#\Lab_1_Vietnamese_Ex3\bin\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.dll
+D:\C#\Lab_1_Vietnamese_Ex3\bin\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.pdb
+D:\C#\Lab_1_Vietnamese_Ex3\obj\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.csprojAssemblyReference.cache
+D:\C#\Lab_1_Vietnamese_Ex3\obj\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.AssemblyInfoInputs.cache
+D:\C#\Lab_1_Vietnamese_Ex3\obj\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.AssemblyInfo.cs
+D:\C#\Lab_1_Vietnamese_Ex3\obj\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.csproj.CoreCompileInputs.cache
+D:\C#\Lab_1_Vietnamese_Ex3\obj\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.dll
+D:\C#\Lab_1_Vietnamese_Ex3\obj\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.pdb
+D:\C#\Lab_1_Vietnamese_Ex3\obj\Debug\netcoreapp3.1\Lab_1_Vietnamese_Ex3.genruntimeconfig.cache

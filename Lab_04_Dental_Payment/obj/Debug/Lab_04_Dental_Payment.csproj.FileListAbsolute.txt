@@ -1,0 +1,14 @@
+D:\C#\Lab_04_Dental_Payment\bin\Debug\Lab_04_Dental_Payment.exe.config
+D:\C#\Lab_04_Dental_Payment\bin\Debug\Lab_04_Dental_Payment.exe
+D:\C#\Lab_04_Dental_Payment\bin\Debug\Lab_04_Dental_Payment.pdb
+D:\C#\Lab_04_Dental_Payment\obj\Debug\Lab_04_Dental_Payment.csprojAssemblyReference.cache
+D:\C#\Lab_04_Dental_Payment\obj\Debug\Lab_04_Dental_Payment.EditGUI.resources
+D:\C#\Lab_04_Dental_Payment\obj\Debug\Lab_04_Dental_Payment.Form1.resources
+D:\C#\Lab_04_Dental_Payment\obj\Debug\Lab_04_Dental_Payment.Properties.Resources.resources
+D:\C#\Lab_04_Dental_Payment\obj\Debug\Lab_04_Dental_Payment.csproj.GenerateResource.cache
+D:\C#\Lab_04_Dental_Payment\obj\Debug\Lab_04_Dental_Payment.csproj.CoreCompileInputs.cache
+D:\C#\Lab_04_Dental_Payment\obj\Debug\Lab_04_Dental_Payment.exe
+D:\C#\Lab_04_Dental_Payment\obj\Debug\Lab_04_Dental_Payment.pdb
+D:\C#\Lab_04_Dental_Payment\bin\Debug\dje\Lab_04_Dental_Payment.resources.dll
+D:\C#\Lab_04_Dental_Payment\obj\Debug\Lab_04_Dental_Payment.Form1.dje.resources
+D:\C#\Lab_04_Dental_Payment\obj\Debug\dje\Lab_04_Dental_Payment.resources.dll

@@ -1,0 +1,13 @@
+D:\C#\BaiTap_Lab02_TiengViet\bin\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.exe
+D:\C#\BaiTap_Lab02_TiengViet\bin\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.deps.json
+D:\C#\BaiTap_Lab02_TiengViet\bin\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.runtimeconfig.json
+D:\C#\BaiTap_Lab02_TiengViet\bin\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.runtimeconfig.dev.json
+D:\C#\BaiTap_Lab02_TiengViet\bin\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.dll
+D:\C#\BaiTap_Lab02_TiengViet\bin\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.pdb
+D:\C#\BaiTap_Lab02_TiengViet\obj\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.csprojAssemblyReference.cache
+D:\C#\BaiTap_Lab02_TiengViet\obj\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.AssemblyInfoInputs.cache
+D:\C#\BaiTap_Lab02_TiengViet\obj\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.AssemblyInfo.cs
+D:\C#\BaiTap_Lab02_TiengViet\obj\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.csproj.CoreCompileInputs.cache
+D:\C#\BaiTap_Lab02_TiengViet\obj\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.dll
+D:\C#\BaiTap_Lab02_TiengViet\obj\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.pdb
+D:\C#\BaiTap_Lab02_TiengViet\obj\Debug\netcoreapp3.1\BaiTap_Lab02_TiengViet.genruntimeconfig.cache

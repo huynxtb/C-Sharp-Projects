@@ -1,0 +1,11 @@
+D:\C#\Lab08_DanhMucNhanVien\bin\Debug\Lab08_DanhMucNhanVien.exe.config
+D:\C#\Lab08_DanhMucNhanVien\bin\Debug\Lab08_DanhMucNhanVien.exe
+D:\C#\Lab08_DanhMucNhanVien\bin\Debug\Lab08_DanhMucNhanVien.pdb
+D:\C#\Lab08_DanhMucNhanVien\obj\Debug\Lab08_DanhMucNhanVien.csprojAssemblyReference.cache
+D:\C#\Lab08_DanhMucNhanVien\obj\Debug\Lab08_DanhMucNhanVien.FormNhanVien.resources
+D:\C#\Lab08_DanhMucNhanVien\obj\Debug\Lab08_DanhMucNhanVien.Properties.Resources.resources
+D:\C#\Lab08_DanhMucNhanVien\obj\Debug\Lab08_DanhMucNhanVien.csproj.GenerateResource.cache
+D:\C#\Lab08_DanhMucNhanVien\obj\Debug\Lab08_DanhMucNhanVien.csproj.CoreCompileInputs.cache
+D:\C#\Lab08_DanhMucNhanVien\obj\Debug\Lab08_DanhMucNhanVien.exe
+D:\C#\Lab08_DanhMucNhanVien\obj\Debug\Lab08_DanhMucNhanVien.pdb
+D:\C#\Lab08_DanhMucNhanVien\obj\Debug\Lab08_DanhMucNhanVien.database.resources

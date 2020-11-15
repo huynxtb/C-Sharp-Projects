@@ -1,0 +1,10 @@
+D:\C#\Lab_05_FastFood\bin\Debug\Lab_05_FastFood.exe.config
+D:\C#\Lab_05_FastFood\bin\Debug\Lab_05_FastFood.exe
+D:\C#\Lab_05_FastFood\bin\Debug\Lab_05_FastFood.pdb
+D:\C#\Lab_05_FastFood\obj\Debug\Lab_05_FastFood.csprojAssemblyReference.cache
+D:\C#\Lab_05_FastFood\obj\Debug\Lab_05_FastFood.Form1.resources
+D:\C#\Lab_05_FastFood\obj\Debug\Lab_05_FastFood.Properties.Resources.resources
+D:\C#\Lab_05_FastFood\obj\Debug\Lab_05_FastFood.csproj.GenerateResource.cache
+D:\C#\Lab_05_FastFood\obj\Debug\Lab_05_FastFood.csproj.CoreCompileInputs.cache
+D:\C#\Lab_05_FastFood\obj\Debug\Lab_05_FastFood.exe
+D:\C#\Lab_05_FastFood\obj\Debug\Lab_05_FastFood.pdb

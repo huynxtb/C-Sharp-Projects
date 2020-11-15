@@ -1,0 +1,12 @@
+D:\C#\LAB2_Vietnamese\bin\Debug\netcoreapp3.1\LAB2_Vietnamese.exe
+D:\C#\LAB2_Vietnamese\bin\Debug\netcoreapp3.1\LAB2_Vietnamese.deps.json
+D:\C#\LAB2_Vietnamese\bin\Debug\netcoreapp3.1\LAB2_Vietnamese.runtimeconfig.json
+D:\C#\LAB2_Vietnamese\bin\Debug\netcoreapp3.1\LAB2_Vietnamese.runtimeconfig.dev.json
+D:\C#\LAB2_Vietnamese\bin\Debug\netcoreapp3.1\LAB2_Vietnamese.dll
+D:\C#\LAB2_Vietnamese\bin\Debug\netcoreapp3.1\LAB2_Vietnamese.pdb
+D:\C#\LAB2_Vietnamese\obj\Debug\netcoreapp3.1\LAB2_Vietnamese.AssemblyInfoInputs.cache
+D:\C#\LAB2_Vietnamese\obj\Debug\netcoreapp3.1\LAB2_Vietnamese.AssemblyInfo.cs
+D:\C#\LAB2_Vietnamese\obj\Debug\netcoreapp3.1\LAB2_Vietnamese.csproj.CoreCompileInputs.cache
+D:\C#\LAB2_Vietnamese\obj\Debug\netcoreapp3.1\LAB2_Vietnamese.dll
+D:\C#\LAB2_Vietnamese\obj\Debug\netcoreapp3.1\LAB2_Vietnamese.pdb
+D:\C#\LAB2_Vietnamese\obj\Debug\netcoreapp3.1\LAB2_Vietnamese.genruntimeconfig.cache

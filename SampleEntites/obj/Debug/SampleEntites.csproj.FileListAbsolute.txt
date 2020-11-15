@@ -1,0 +1,15 @@
+D:\C#\SampleEntites\bin\Debug\SampleEntites.exe.config
+D:\C#\SampleEntites\bin\Debug\SampleEntites.exe
+D:\C#\SampleEntites\bin\Debug\SampleEntites.pdb
+D:\C#\SampleEntites\bin\Debug\EntityFramework.dll
+D:\C#\SampleEntites\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\SampleEntites\bin\Debug\EntityFramework.xml
+D:\C#\SampleEntites\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\SampleEntites\obj\Debug\SampleEntites.csprojAssemblyReference.cache
+D:\C#\SampleEntites\obj\Debug\SampleEntites.Form1.resources
+D:\C#\SampleEntites\obj\Debug\SampleEntites.Properties.Resources.resources
+D:\C#\SampleEntites\obj\Debug\SampleEntites.csproj.GenerateResource.cache
+D:\C#\SampleEntites\obj\Debug\SampleEntites.csproj.CoreCompileInputs.cache
+D:\C#\SampleEntites\obj\Debug\SampleEntites.csproj.CopyComplete
+D:\C#\SampleEntites\obj\Debug\SampleEntites.exe
+D:\C#\SampleEntites\obj\Debug\SampleEntites.pdb

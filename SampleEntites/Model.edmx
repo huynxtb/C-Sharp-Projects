@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="basiccsharpModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="lop">
+          <Key>
+            <PropertyRef Name="malop" />
+          </Key>
+          <Property Name="malop" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="tenlop" Type="nvarchar" MaxLength="50" />
+          <Property Name="nam" Type="int" />
+        </EntityType>
+        <EntityType Name="SinhVien">
+          <Key>
+            <PropertyRef Name="mssv" />
+          </Key>
+          <Property Name="mssv" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="hoten" Type="nvarchar" MaxLength="50" />
+          <Property Name="malop" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_SinhVien_lop">
+          <End Role="lop" Type="Self.lop" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="lop">
+              <PropertyRef Name="malop" />
+            </Principal>
+            <Dependent Role="SinhVien">
+              <PropertyRef Name="malop" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="basiccsharpModelStoreContainer">
+          <EntitySet Name="lop" EntityType="Self.lop" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SinhVien" EntityType="Self.SinhVien" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_SinhVien_lop" Association="Self.FK_SinhVien_lop">
+            <End Role="lop" EntitySet="lop" />
+            <End Role="SinhVien" EntitySet="SinhVien" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="basiccsharpModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="lop">
+          <Key>
+            <PropertyRef Name="malop" />
+          </Key>
+          <Property Name="malop" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="tenlop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nam" Type="Int32" />
+          <NavigationProperty Name="SinhViens" Relationship="Self.FK_SinhVien_lop" FromRole="lop" ToRole="SinhVien" />
+        </EntityType>
+        <EntityType Name="SinhVien">
+          <Key>
+            <PropertyRef Name="mssv" />
+          </Key>
+          <Property Name="mssv" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="hoten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="malop" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="lop" Relationship="Self.FK_SinhVien_lop" FromRole="SinhVien" ToRole="lop" />
+        </EntityType>
+        <Association Name="FK_SinhVien_lop">
+          <End Role="lop" Type="Self.lop" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="lop">
+              <PropertyRef Name="malop" />
+            </Principal>
+            <Dependent Role="SinhVien">
+              <PropertyRef Name="malop" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="basiccsharpEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="lops" EntityType="Self.lop" />
+          <EntitySet Name="SinhViens" EntityType="Self.SinhVien" />
+          <AssociationSet Name="FK_SinhVien_lop" Association="Self.FK_SinhVien_lop">
+            <End Role="lop" EntitySet="lops" />
+            <End Role="SinhVien" EntitySet="SinhViens" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="basiccsharpModelStoreContainer" CdmEntityContainer="basiccsharpEntities">
+          <EntitySetMapping Name="lops">
+            <EntityTypeMapping TypeName="basiccsharpModel.lop">
+              <MappingFragment StoreEntitySet="lop">
+                <ScalarProperty Name="malop" ColumnName="malop" />
+                <ScalarProperty Name="tenlop" ColumnName="tenlop" />
+                <ScalarProperty Name="nam" ColumnName="nam" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SinhViens">
+            <EntityTypeMapping TypeName="basiccsharpModel.SinhVien">
+              <MappingFragment StoreEntitySet="SinhVien">
+                <ScalarProperty Name="mssv" ColumnName="mssv" />
+                <ScalarProperty Name="hoten" ColumnName="hoten" />
+                <ScalarProperty Name="malop" ColumnName="malop" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

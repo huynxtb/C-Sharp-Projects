@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="basiccsharpModelStoreContainer" CdmEntityContainer="basiccsharpEntities">
+    <EntitySetMapping Name="lops">
+      <EntityTypeMapping TypeName="basiccsharpModel.lop">
+        <MappingFragment StoreEntitySet="lop">
+          <ScalarProperty Name="malop" ColumnName="malop" />
+          <ScalarProperty Name="tenlop" ColumnName="tenlop" />
+          <ScalarProperty Name="nam" ColumnName="nam" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SinhViens">
+      <EntityTypeMapping TypeName="basiccsharpModel.SinhVien">
+        <MappingFragment StoreEntitySet="SinhVien">
+          <ScalarProperty Name="mssv" ColumnName="mssv" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="malop" ColumnName="malop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

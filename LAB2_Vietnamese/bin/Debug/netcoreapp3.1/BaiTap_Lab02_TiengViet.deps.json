@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BaiTap_Lab02_TiengViet/1.0.0": {
+        "runtime": {
+          "BaiTap_Lab02_TiengViet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BaiTap_Lab02_TiengViet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

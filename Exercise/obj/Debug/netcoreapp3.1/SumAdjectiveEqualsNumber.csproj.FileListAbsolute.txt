@@ -1,0 +1,13 @@
+D:\C#\Exercise\bin\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.exe
+D:\C#\Exercise\bin\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.deps.json
+D:\C#\Exercise\bin\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.runtimeconfig.json
+D:\C#\Exercise\bin\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.runtimeconfig.dev.json
+D:\C#\Exercise\bin\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.dll
+D:\C#\Exercise\bin\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.pdb
+D:\C#\Exercise\obj\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.csprojAssemblyReference.cache
+D:\C#\Exercise\obj\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.AssemblyInfoInputs.cache
+D:\C#\Exercise\obj\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.AssemblyInfo.cs
+D:\C#\Exercise\obj\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.csproj.CoreCompileInputs.cache
+D:\C#\Exercise\obj\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.dll
+D:\C#\Exercise\obj\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.pdb
+D:\C#\Exercise\obj\Debug\netcoreapp3.1\SumAdjectiveEqualsNumber.genruntimeconfig.cache

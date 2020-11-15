@@ -1,0 +1,12 @@
+D:\C#\BasicDBCsharp\bin\Debug\BasicDBCsharp.exe.config
+D:\C#\BasicDBCsharp\bin\Debug\BasicDBCsharp.exe
+D:\C#\BasicDBCsharp\bin\Debug\BasicDBCsharp.pdb
+D:\C#\BasicDBCsharp\obj\Debug\BasicDBCsharp.csprojAssemblyReference.cache
+D:\C#\BasicDBCsharp\obj\Debug\BasicDBCsharp.frmLop.resources
+D:\C#\BasicDBCsharp\obj\Debug\BasicDBCsharp.frmSinhVien.resources
+D:\C#\BasicDBCsharp\obj\Debug\BasicDBCsharp.Properties.Resources.resources
+D:\C#\BasicDBCsharp\obj\Debug\BasicDBCsharp.csproj.GenerateResource.cache
+D:\C#\BasicDBCsharp\obj\Debug\BasicDBCsharp.csproj.CoreCompileInputs.cache
+D:\C#\BasicDBCsharp\obj\Debug\BasicDBCsharp.exe
+D:\C#\BasicDBCsharp\obj\Debug\BasicDBCsharp.pdb
+D:\C#\BasicDBCsharp\obj\Debug\BasicDBCsharp.database.resources

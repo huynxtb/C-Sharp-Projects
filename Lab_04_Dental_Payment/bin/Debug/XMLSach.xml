@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ds>
+  <sach code="1">
+    <masach>s1</masach>
+    <tensach>
+    </tensach>
+    <soluong>0</soluong>
+    <dongia>0</dongia>
+  </sach>
+  <sach code="2">
+    <masach>s2</masach>
+    <tensach>van hoa</tensach>
+    <soluong>130</soluong>
+    <dongia>15000</dongia>
+  </sach>
+  <sach code="3">
+    <masach>x444</masach>
+    <tensach>co khi</tensach>
+    <soluong>123</soluong>
+    <dongia>1</dongia>
+  </sach>
+  <sach>
+    <masach>a</masach>
+    <tensach>A</tensach>
+    <soluong>1</soluong>
+    <dongia>1</dongia>
+  </sach>
+</ds>

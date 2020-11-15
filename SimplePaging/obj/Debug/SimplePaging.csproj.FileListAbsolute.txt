@@ -1,0 +1,17 @@
+D:\C#\SimplePaging\bin\Debug\SimplePaging.exe.config
+D:\C#\SimplePaging\bin\Debug\SimplePaging.exe
+D:\C#\SimplePaging\bin\Debug\SimplePaging.pdb
+D:\C#\SimplePaging\bin\Debug\EntityFramework.dll
+D:\C#\SimplePaging\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\SimplePaging\bin\Debug\PagedList.dll
+D:\C#\SimplePaging\bin\Debug\EntityFramework.xml
+D:\C#\SimplePaging\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\SimplePaging\bin\Debug\PagedList.xml
+D:\C#\SimplePaging\obj\Debug\SimplePaging.csprojAssemblyReference.cache
+D:\C#\SimplePaging\obj\Debug\SimplePaging.Form1.resources
+D:\C#\SimplePaging\obj\Debug\SimplePaging.Properties.Resources.resources
+D:\C#\SimplePaging\obj\Debug\SimplePaging.csproj.GenerateResource.cache
+D:\C#\SimplePaging\obj\Debug\SimplePaging.csproj.CoreCompileInputs.cache
+D:\C#\SimplePaging\obj\Debug\SimplePaging.csproj.CopyComplete
+D:\C#\SimplePaging\obj\Debug\SimplePaging.exe
+D:\C#\SimplePaging\obj\Debug\SimplePaging.pdb

@@ -1,0 +1,10 @@
+D:\C#\Lab_03_Security_Panel\bin\Debug\Lab_03_Security_Panel.exe.config
+D:\C#\Lab_03_Security_Panel\bin\Debug\Lab_03_Security_Panel.exe
+D:\C#\Lab_03_Security_Panel\bin\Debug\Lab_03_Security_Panel.pdb
+D:\C#\Lab_03_Security_Panel\obj\Debug\Lab_03_Security_Panel.csprojAssemblyReference.cache
+D:\C#\Lab_03_Security_Panel\obj\Debug\Lab_03_Security_Panel.Form1.resources
+D:\C#\Lab_03_Security_Panel\obj\Debug\Lab_03_Security_Panel.Properties.Resources.resources
+D:\C#\Lab_03_Security_Panel\obj\Debug\Lab_03_Security_Panel.csproj.GenerateResource.cache
+D:\C#\Lab_03_Security_Panel\obj\Debug\Lab_03_Security_Panel.csproj.CoreCompileInputs.cache
+D:\C#\Lab_03_Security_Panel\obj\Debug\Lab_03_Security_Panel.exe
+D:\C#\Lab_03_Security_Panel\obj\Debug\Lab_03_Security_Panel.pdb

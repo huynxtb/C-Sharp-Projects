@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDBCsharp", "BasicDBCsharp.csproj", "{A97C50E5-0EC4-43D6-8F90-B5E4641FEF69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A97C50E5-0EC4-43D6-8F90-B5E4641FEF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97C50E5-0EC4-43D6-8F90-B5E4641FEF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97C50E5-0EC4-43D6-8F90-B5E4641FEF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97C50E5-0EC4-43D6-8F90-B5E4641FEF69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76C2AFB0-9EF0-451C-B942-81AC8B9F4504}
+	EndGlobalSection
+EndGlobal

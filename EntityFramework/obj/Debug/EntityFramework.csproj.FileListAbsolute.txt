@@ -1,0 +1,16 @@
+D:\C#\EntityFramework\bin\Debug\EntityFramework.exe.config
+D:\C#\EntityFramework\bin\Debug\EntityFramework.exe
+D:\C#\EntityFramework\bin\Debug\EntityFramework.pdb
+D:\C#\EntityFramework\obj\Debug\EntityFramework.csprojAssemblyReference.cache
+D:\C#\EntityFramework\obj\Debug\EntityFramework.Form1.resources
+D:\C#\EntityFramework\obj\Debug\EntityFramework.Properties.Resources.resources
+D:\C#\EntityFramework\obj\Debug\EntityFramework.csproj.GenerateResource.cache
+D:\C#\EntityFramework\obj\Debug\EntityFramework.csproj.CoreCompileInputs.cache
+D:\C#\EntityFramework\obj\Debug\EntityFramework.exe
+D:\C#\EntityFramework\obj\Debug\EntityFramework.pdb
+D:\C#\EntityFramework\bin\Debug\EntityFramework.dll
+D:\C#\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\EntityFramework\bin\Debug\EntityFramework.xml
+D:\C#\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\EntityFramework\obj\Debug\EntityFramework.csproj.CopyComplete
+D:\C#\EntityFramework\obj\Debug\EntityFramework.SearchEntity.resources

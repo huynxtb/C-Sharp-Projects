@@ -1,0 +1,10 @@
+D:\C#\Lab04_QuanLySinhVien\bin\Debug\Lab04_QuanLySinhVien.exe.config
+D:\C#\Lab04_QuanLySinhVien\bin\Debug\Lab04_QuanLySinhVien.exe
+D:\C#\Lab04_QuanLySinhVien\bin\Debug\Lab04_QuanLySinhVien.pdb
+D:\C#\Lab04_QuanLySinhVien\obj\Debug\Lab04_QuanLySinhVien.csprojAssemblyReference.cache
+D:\C#\Lab04_QuanLySinhVien\obj\Debug\Lab04_QuanLySinhVien.Form1.resources
+D:\C#\Lab04_QuanLySinhVien\obj\Debug\Lab04_QuanLySinhVien.Properties.Resources.resources
+D:\C#\Lab04_QuanLySinhVien\obj\Debug\Lab04_QuanLySinhVien.csproj.GenerateResource.cache
+D:\C#\Lab04_QuanLySinhVien\obj\Debug\Lab04_QuanLySinhVien.csproj.CoreCompileInputs.cache
+D:\C#\Lab04_QuanLySinhVien\obj\Debug\Lab04_QuanLySinhVien.exe
+D:\C#\Lab04_QuanLySinhVien\obj\Debug\Lab04_QuanLySinhVien.pdb

@@ -1,0 +1,10 @@
+D:\C#\Lab_3_Thuc_Hien_Phep_Tinh\bin\Debug\Lab_3_Thuc_Hien_Phep_Tinh.exe.config
+D:\C#\Lab_3_Thuc_Hien_Phep_Tinh\bin\Debug\Lab_3_Thuc_Hien_Phep_Tinh.exe
+D:\C#\Lab_3_Thuc_Hien_Phep_Tinh\bin\Debug\Lab_3_Thuc_Hien_Phep_Tinh.pdb
+D:\C#\Lab_3_Thuc_Hien_Phep_Tinh\obj\Debug\Lab_3_Thuc_Hien_Phep_Tinh.csprojAssemblyReference.cache
+D:\C#\Lab_3_Thuc_Hien_Phep_Tinh\obj\Debug\Lab_3_Thuc_Hien_Phep_Tinh.Form1.resources
+D:\C#\Lab_3_Thuc_Hien_Phep_Tinh\obj\Debug\Lab_3_Thuc_Hien_Phep_Tinh.Properties.Resources.resources
+D:\C#\Lab_3_Thuc_Hien_Phep_Tinh\obj\Debug\Lab_3_Thuc_Hien_Phep_Tinh.csproj.GenerateResource.cache
+D:\C#\Lab_3_Thuc_Hien_Phep_Tinh\obj\Debug\Lab_3_Thuc_Hien_Phep_Tinh.csproj.CoreCompileInputs.cache
+D:\C#\Lab_3_Thuc_Hien_Phep_Tinh\obj\Debug\Lab_3_Thuc_Hien_Phep_Tinh.exe
+D:\C#\Lab_3_Thuc_Hien_Phep_Tinh\obj\Debug\Lab_3_Thuc_Hien_Phep_Tinh.pdb

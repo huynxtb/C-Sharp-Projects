@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{84BF4585-C3CD-478E-8697-C9AA8C74F3C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LibraryOnl</RootNamespace>
+    <AssemblyName>LibraryOnl</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Books-1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="book.cs">
+      <DependentUpon>BookModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Constant\SystemConstant.cs" />
+    <Compile Include="DAO\GennericDAO.cs" />
+    <Compile Include="DAO\IBookDAO.cs" />
+    <Compile Include="DAO\ICategoryDAO.cs" />
+    <Compile Include="DAO\impl\AbstractDAO.cs" />
+    <Compile Include="DAO\impl\BookDAO.cs" />
+    <Compile Include="DAO\impl\CategoryDAO.cs" />
+    <Compile Include="Constant\ResourceDB.cs" />
+    <Compile Include="DAO\impl\RoleDAO.cs" />
+    <Compile Include="DAO\impl\UserDAO.cs" />
+    <Compile Include="DAO\IRoleDAO.cs" />
+    <Compile Include="DAO\IUserDAO.cs" />
+    <Compile Include="DTO\MyUser.cs" />
+    <Compile Include="database.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>database.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\AdminGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AdminGUI.Designer.cs">
+      <DependentUpon>AdminGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LoginAndSignUpGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\LoginAndSignUpGUI.Designer.cs">
+      <DependentUpon>LoginAndSignUpGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UserGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\UserGUI.Designer.cs">
+      <DependentUpon>UserGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\AbstractDTO.cs" />
+    <Compile Include="DTO\BookDTO.cs" />
+    <Compile Include="DTO\CategoryDTO.cs" />
+    <Compile Include="DTO\RoleDTO.cs" />
+    <Compile Include="DTO\UserDTO.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="readingbookonlineDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>readingbookonlineDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="readingbookonlineDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>readingbookonlineDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="readingbookonlineDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>readingbookonlineDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="readingbookonlineDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>readingbookonlineDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="readingbookonlineDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>readingbookonlineDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="readingbookonlineDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>readingbookonlineDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="readingbookonlineDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>readingbookonlineDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Service\IBookService.cs" />
+    <Compile Include="Service\ICategoryService.cs" />
+    <Compile Include="Service\impl\BookService.cs" />
+    <Compile Include="Service\impl\CategoryService.cs" />
+    <Compile Include="Service\impl\RoleService.cs" />
+    <Compile Include="Service\impl\UserService.cs" />
+    <Compile Include="Service\IRoleService.cs" />
+    <Compile Include="Service\IUserService.cs" />
+    <Compile Include="Utils\ClearTextBox.cs" />
+    <Compile Include="Utils\SecurityUtil.cs" />
+    <Compile Include="Utils\Singleton.cs" />
+    <Compile Include="Utils\Validation.cs" />
+    <EmbeddedResource Include="database.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>database.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\AdminGUI.resx">
+      <DependentUpon>AdminGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LoginAndSignUpGUI.resx">
+      <DependentUpon>LoginAndSignUpGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UserGUI.resx">
+      <DependentUpon>UserGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\db.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>db.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\db.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>db.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EntityDeploy Include="BookModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BookModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="BookModel.edmx.diagram">
+      <DependentUpon>BookModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="readingbookonlineDataSet.xsc">
+      <DependentUpon>readingbookonlineDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>readingbookonlineDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="readingbookonlineDataSet.xss">
+      <DependentUpon>readingbookonlineDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet1.xsc">
+      <DependentUpon>readingbookonlineDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>readingbookonlineDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="readingbookonlineDataSet1.xss">
+      <DependentUpon>readingbookonlineDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet2.xsc">
+      <DependentUpon>readingbookonlineDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>readingbookonlineDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="readingbookonlineDataSet2.xss">
+      <DependentUpon>readingbookonlineDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet3.xsc">
+      <DependentUpon>readingbookonlineDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>readingbookonlineDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="readingbookonlineDataSet3.xss">
+      <DependentUpon>readingbookonlineDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet4.xsc">
+      <DependentUpon>readingbookonlineDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>readingbookonlineDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="readingbookonlineDataSet4.xss">
+      <DependentUpon>readingbookonlineDataSet4.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BookModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>BookModel.Context.cs</LastGenOutput>
+      <DependentUpon>BookModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="BookModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BookModel.edmx</DependentUpon>
+      <LastGenOutput>BookModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Books-1.ico" />
+    <Content Include="default_img.jpg" />
+    <None Include="Resources\Pause 32px.png" />
+    <None Include="Resources\Pause-icon 32px.png" />
+    <None Include="Resources\Play-icon 32px.png" />
+    <None Include="Resources\speak-icon 32px.png" />
+    <None Include="Resources\Page-Speed-icon 48 px.png" />
+    <None Include="Resources\btnAdmin.bmp" />
+    <None Include="readingbookonlineDataSet6.xsc">
+      <DependentUpon>readingbookonlineDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>readingbookonlineDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="readingbookonlineDataSet6.xss">
+      <DependentUpon>readingbookonlineDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\exit icon 32.png" />
+    <None Include="Resources\exit icon 48px1.png" />
+    <None Include="Resources\exit 24px.png" />
+    <None Include="Resources\Apps-Google-Chrome-App-List-icon.png" />
+    <None Include="Resources\The-Help-icon.png" />
+    <None Include="Resources\Comic-icon.png" />
+    <None Include="Resources\Programming-icon.png" />
+    <None Include="readingbookonlineDataSet5.xsc">
+      <DependentUpon>readingbookonlineDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="readingbookonlineDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>readingbookonlineDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="readingbookonlineDataSet5.xss">
+      <DependentUpon>readingbookonlineDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Logout icon 32px.png" />
+    <None Include="Resources\Logout icon 48px.png" />
+    <None Include="Resources\Logout icon 64px.png" />
+    <None Include="Resources\edit icon 16px.png" />
+    <None Include="Resources\plus icon 16px.png" />
+    <None Include="Resources\exit icon 48px.png" />
+    <None Include="Resources\key icon 48px.png" />
+    <None Include="Resources\user icon 48px.png" />
+    <None Include="Resources\diagram-icon 48px.png" />
+    <None Include="Resources\book icon 48px.png" />
+    <None Include="Resources\search-icon 24px.png" />
+    <None Include="Resources\search-icon 32px.png" />
+    <None Include="Resources\Zoom-In-icon 32px.png" />
+    <None Include="Resources\Homepage-Optimization-icon 64px .png" />
+    <None Include="Resources\logout-32px.png" />
+    <None Include="Resources\logout-icon.png" />
+    <None Include="Resources\Apps-session-logout-icon.png" />
+    <None Include="Resources\182-1821638_logout-icon-png-red-clipart.png" />
+    <None Include="Resources\Signup-logotype-V1.png" />
+    <None Include="Resources\blog-wp-login.png" />
+    <None Include="Resources\tao-mot-form-login-co-ban-trong-java-63730679233.2311.jpg" />
+    <None Include="Resources\journey-login-background.png" />
+    <None Include="Resources\login1.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\usrname.png" />
+    <None Include="Images\default_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

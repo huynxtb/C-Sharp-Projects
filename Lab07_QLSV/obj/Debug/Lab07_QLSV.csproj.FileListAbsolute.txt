@@ -1,0 +1,11 @@
+D:\C#\Lab07_QLSV\bin\Debug\Lab07_QLSV.exe.config
+D:\C#\Lab07_QLSV\bin\Debug\Lab07_QLSV.exe
+D:\C#\Lab07_QLSV\bin\Debug\Lab07_QLSV.pdb
+D:\C#\Lab07_QLSV\obj\Debug\Lab07_QLSV.csprojAssemblyReference.cache
+D:\C#\Lab07_QLSV\obj\Debug\Lab07_QLSV.Properties.Resources.resources
+D:\C#\Lab07_QLSV\obj\Debug\Lab07_QLSV.csproj.GenerateResource.cache
+D:\C#\Lab07_QLSV\obj\Debug\Lab07_QLSV.csproj.CoreCompileInputs.cache
+D:\C#\Lab07_QLSV\obj\Debug\Lab07_QLSV.exe
+D:\C#\Lab07_QLSV\obj\Debug\Lab07_QLSV.pdb
+D:\C#\Lab07_QLSV\obj\Debug\Lab07_QLSV.database.resources
+D:\C#\Lab07_QLSV\obj\Debug\Lab07_QLSV.MainForm.resources

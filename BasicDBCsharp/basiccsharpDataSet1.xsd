@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="basiccsharpDataSet1" targetNamespace="http://tempuri.org/basiccsharpDataSet1.xsd" xmlns:mstns="http://tempuri.org/basiccsharpDataSet1.xsd" xmlns="http://tempuri.org/basiccsharpDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="basiccsharpConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="basiccsharpConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BasicDBCsharp.Properties.Settings.GlobalReference.Default.basiccsharpConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SinhVienTableAdapter" GeneratorDataComponentClassName="SinhVienTableAdapter" Name="SinhVien" UserDataComponentName="SinhVienTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="basiccsharpConnectionString (Settings)" DbObjectName="basiccsharp.dbo.SinhVien" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT malop FROM dbo.SinhVien</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="malop" DataSetColumn="malop" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="basiccsharpDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="basiccsharpDataSet1" msprop:Generator_UserDSName="basiccsharpDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SinhVien" msprop:Generator_TableClassName="SinhVienDataTable" msprop:Generator_TableVarName="tableSinhVien" msprop:Generator_TablePropName="SinhVien" msprop:Generator_RowDeletingName="SinhVienRowDeleting" msprop:Generator_RowChangingName="SinhVienRowChanging" msprop:Generator_RowEvHandlerName="SinhVienRowChangeEventHandler" msprop:Generator_RowDeletedName="SinhVienRowDeleted" msprop:Generator_UserTableName="SinhVien" msprop:Generator_RowChangedName="SinhVienRowChanged" msprop:Generator_RowEvArgName="SinhVienRowChangeEvent" msprop:Generator_RowClassName="SinhVienRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="malop" msprop:Generator_ColumnVarNameInTable="columnmalop" msprop:Generator_ColumnPropNameInRow="malop" msprop:Generator_ColumnPropNameInTable="malopColumn" msprop:Generator_UserColumnName="malop">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

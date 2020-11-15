@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LAB2_Vietnamese/1.0.0": {
+        "runtime": {
+          "LAB2_Vietnamese.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LAB2_Vietnamese/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

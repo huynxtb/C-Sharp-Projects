@@ -1,0 +1,11 @@
+D:\C#\NguyenXuanHuy_DE130146\bin\Debug\NguyenXuanHuy_DE130146.exe.config
+D:\C#\NguyenXuanHuy_DE130146\bin\Debug\NguyenXuanHuy_DE130146.exe
+D:\C#\NguyenXuanHuy_DE130146\bin\Debug\NguyenXuanHuy_DE130146.pdb
+D:\C#\NguyenXuanHuy_DE130146\obj\Debug\NguyenXuanHuy_DE130146.csprojAssemblyReference.cache
+D:\C#\NguyenXuanHuy_DE130146\obj\Debug\NguyenXuanHuy_DE130146.Form1.resources
+D:\C#\NguyenXuanHuy_DE130146\obj\Debug\NguyenXuanHuy_DE130146.Properties.Resources.resources
+D:\C#\NguyenXuanHuy_DE130146\obj\Debug\NguyenXuanHuy_DE130146.csproj.GenerateResource.cache
+D:\C#\NguyenXuanHuy_DE130146\obj\Debug\NguyenXuanHuy_DE130146.csproj.CoreCompileInputs.cache
+D:\C#\NguyenXuanHuy_DE130146\obj\Debug\NguyenXuanHuy_DE130146.exe
+D:\C#\NguyenXuanHuy_DE130146\obj\Debug\NguyenXuanHuy_DE130146.pdb
+D:\C#\NguyenXuanHuy_DE130146\obj\Debug\NguyenXuanHuy_DE130146.FormMain.resources
