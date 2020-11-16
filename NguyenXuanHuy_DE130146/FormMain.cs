@@ -15,15 +15,15 @@ namespace NguyenXuanHuy_DE130146
 
         private Entites db = new Entites();
         private Model supplier = new Model();
-        private string Code = "";
-        private int ID = -1;
+        private string code = "";
+        private int id = -1;
         public FormMain()
         {
             InitializeComponent();
             this.CenterToScreen();
         }
         #region methods
-        private bool isEmptyTxt()
+        private bool IsEmptyTxt()
         {
             if (Validation.CheckEmptyTextbox(txt_1, "Vui lòng nhập mã sinh viên")) return false;
             return true;
@@ -81,7 +81,7 @@ namespace NguyenXuanHuy_DE130146
             }
             else
             {
-                if (isEmptyTxt())
+                if (IsEmptyTxt())
                 {
                     supplier = new Supplier(); // Fix Suppliers
                     supplier.CompanyName = txtSupName.Text;
@@ -97,15 +97,16 @@ namespace NguyenXuanHuy_DE130146
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            if (ID != -1)
+            if (id != -1)
             {
-                if (isEmptyTxt())
+                if (IsEmptyTxt())
                 {
-                    supplier = db.Suppliers.Find(SupplierID); // Fix Suppliers
+                    supplier = db.Suppliers.Find(id); // Fix Suppliers
 
                     supplier.CompanyName = txtSupName.Text;
 
                     db.SaveChanges();
+                    id = -1;
                     MessageBox.Show("Update successful", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     LoadData();
                 }
